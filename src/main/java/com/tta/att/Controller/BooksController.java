@@ -15,6 +15,7 @@ public class BooksController {
 	
 	@RequestMapping("/getBookById")
 	public String getBookNameById(){
+		System.out.println("From Interbind");
 		return bsi.getBookNameByID();
 	}
 }
